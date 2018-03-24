@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NewsAppStage2</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="settings_tag_key">tag</string>
+    <string name="settings_tag_Default">environment/recycling</string>
+    <string name="settings_tag_label">Select Tag</string>
+
+    <string-array name="tags_list_entries">
+        <item>recycling</item>
+        <item>plasticbags</item>
+        <item>energyefficiency</item>
+    </string-array>
+    <string-array name="tags_list_entry_values">
+        <item>environment/recycling</item>
+        <item>environment/plasticbags</item>
+        <item>environment/energyefficiency</item>
+    </string-array>
+
+</resources>

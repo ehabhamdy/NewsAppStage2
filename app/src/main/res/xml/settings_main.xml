@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/settings_tag_Default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_tag_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_tag_label"
+        android:entries="@array/tags_list_entries"
+        android:entryValues="@array/tags_list_entry_values"/>
+</PreferenceScreen>
