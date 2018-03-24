@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements NewsAdapter.Recyc
     NewsAdapter adapter;
     List<Results> results = new ArrayList<>();
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,7 +67,6 @@ public class MainActivity extends AppCompatActivity implements NewsAdapter.Recyc
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
         return activeNetwork != null &&
                 activeNetwork.isConnectedOrConnecting();
-
     }
 
     public void onClick(Results result) {
@@ -83,7 +81,6 @@ public class MainActivity extends AppCompatActivity implements NewsAdapter.Recyc
         String tag = sharedPrefs.getString(
                 getString(R.string.settings_tag_key),
                 getString(R.string.settings_tag_Default));
-
 
         Uri baseUri = Uri.parse(BASE_URL);
         Uri.Builder uriBuilder = baseUri.buildUpon();

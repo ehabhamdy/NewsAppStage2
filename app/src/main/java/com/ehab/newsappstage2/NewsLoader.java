@@ -99,7 +99,6 @@ public class NewsLoader extends AsyncTaskLoader<List<Results>> {
             result.setApiUrl(newsItem.getString("apiUrl"));
             result.setIsHosted(newsItem.getString("isHosted"));
 
-
             parsedNewsData.add(result);
         }
 
